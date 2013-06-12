@@ -4,7 +4,7 @@
 
 Adds shortcodes to show content conditionally based on whether a visitor was referred (or not) by an affiliate.
 
-Requires [Affiliates(http://www.itthinx.com/plugins/affiliates/), [Affiliates Pro](http://www.itthinx.com/plugins/affiliates-pro/) or [Affiliates Enterprise](http://www.itthinx.com/plugins/affiliates-enterprise/).
+Requires [Affiliates](http://www.itthinx.com/plugins/affiliates/), [Affiliates Pro](http://www.itthinx.com/plugins/affiliates-pro/) or [Affiliates Enterprise](http://www.itthinx.com/plugins/affiliates-enterprise/).
 
 This provides the following shortcodes:
 
@@ -13,7 +13,7 @@ This provides the following shortcodes:
 
 The shortcodes support the following attributes:
 
-- direct : "yes" / "no" to take into the Direct affiliate or not; default: "no"
+- direct : "yes" / "no" to take into account the Direct affiliate or not; default: "no"
 - affiliate_id : a comma-separated list of affiliate ids that restrict the referrers to which the shortcode applies
 
 Example:
