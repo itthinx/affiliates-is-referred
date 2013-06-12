@@ -108,6 +108,7 @@ class Affiliates_Is_Referred {
 			$atts
 		);
 		extract( $options );
+		$direct = $direct === true || $direct === 'true' || $direct === 'yes';
 		$result = false;
 		require_once  AFFILIATES_CORE_LIB . '/class-affiliates-service.php';
 		if ( $referrer_id = Affiliates_Service::get_referrer_id() ) {
